@@ -1,0 +1,979 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+
+.navigasi{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+
+}
+.navigasi .logo{
+    padding: 10px;
+    font-size: 2.5em;
+}
+.navigasimenu{
+    padding: 15px;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.navigasi a{
+    padding: 20px;
+    color: green;
+    text-decoration: none;
+}
+.navigasimenu a:hover{
+    border-bottom: 2px solid green;
+}
+
+.navigasimenu .order{
+    background-color: green;
+    color: white;
+
+}
+.navigasimenu .order:hover{
+    background-color: #C1F2B0;
+    color: black;
+    transition: 0.5s;
+
+}
+#background{
+    display: flex;
+    width: 100%;
+    background-image: url(images/buah18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+}
+
+.tagline{
+    display: grid;
+    width: 100%;
+
+}
+.kontentagline{
+    place-self: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.3em;
+
+}
+.kontentagline .pencetini{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 10px;
+}
+.kontentagline a:hover{
+    background-color: #C1F2B0;
+    color: black;
+    transition: 0.5s;
+}
+
+.konten1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin: 3.5em;
+
+}
+.kiri img{
+    width: 18vw;
+    height: 65vh;
+}
+
+.kanan img {
+    width: 18vw;
+    height: 65vh;
+}
+.keunggulan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    gap: 10%;
+
+}
+.keunggulan h3{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 70px;
+    text-align:center;
+    font-size: 25px;
+    color: green;
+    border: 2px  solid greenyellow;
+    border-radius: 20px 10px 20px 10px;
+    padding: 15px;
+}
+.keunggulan h3:hover{
+    color: white;
+    background-color: green;
+    transition: 0.5s;
+}
+.judularticle2{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+.judularticle2 h1{
+    font-size: 25px;
+    text-align: center;
+    width: fit-content;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+.produk1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.kecapi{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    height: 70vh;
+}
+.kecapi:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+
+.kecapi img{
+    width: 275px;
+    height: 200px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border-radius: 10px;  
+}
+.kecapi a{
+    padding: 5px 20px 5px 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.kecapi a:hover{
+    background-color: #C1F2B0;
+    border: 1px solid green;
+    color: black;
+    transition: 0.5s;
+
+}
+.jambubol{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    height: 70vh;
+}
+.jambubol:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+
+.jambubol img{
+    width: 275px;
+    height: 200px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border-radius: 10px; 
+}
+.jambubol a{
+    padding: 5px 20px 5px 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.jambubol a:hover{
+    background-color: #C1F2B0;
+    border: 1px solid green;
+    color: black;
+    transition: 0.5s;
+
+}
+.jambubol h3{
+    text-align: center;
+}
+.kesemek{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    height: 70vh;
+}
+.kesemek:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+
+.kesemek img{
+    width: 275px;
+    height: 200px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border-radius: 10px; 
+}
+.kesemek a{
+    padding: 5px 20px 5px 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.kesemek a:hover{
+    background-color: #C1F2B0;
+    border: 1px solid green;
+    color: black;
+    transition: 0.5s;
+
+}
+.kesemek h3{
+    text-align: center;
+}
+.produk2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.kiwi{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    height: 70vh;
+}
+.kiwi:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+
+.kiwi img{
+    width: 275px;
+    height: 200px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border-radius: 10px; 
+}
+.kiwi a{
+    padding: 5px 20px 5px 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.kiwi a:hover{
+    background-color: #C1F2B0;
+    border: 1px solid green;
+    color: black;
+    transition: 0.5s;
+
+}
+.kiwi h3{
+    text-align: center;
+}
+.manggis{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    height: 70vh;
+}
+.manggis:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+
+.manggis img{
+    width: 275px;
+    height: 200px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border-radius: 10px; 
+}
+.manggis a{
+    padding: 5px 20px 5px 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.manggis a:hover{
+    background-color: #C1F2B0;
+    border: 1px solid green;
+    color: black;
+    transition: 0.5s;
+
+}
+.manggis h3{
+    text-align: center;
+}
+.sirsak{
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    height: 70vh;
+}
+.sirsak:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+
+.sirsak img{
+    width: 275px;
+    height: 200px;
+    background-color: rgb(128, 128, 128, 0.1);
+    border-radius: 10px; 
+}
+.sirsak a{
+    padding: 5px 20px 5px 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.sirsak a:hover{
+    background-color: #C1F2B0;
+    border: 1px solid green;
+    color: black;
+    transition: 0.5s;
+
+}
+.sirsak h3{
+    text-align: center;
+}
+#article3{
+    width: 100%;
+    margin-top: 3.5em;
+}
+.konten3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    justify-content: center;
+}
+.isi3{
+    width: 45%;
+}
+.judulisi3 h1{
+    padding: 15px;
+    margin: 15px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    width: fit-content; 
+}
+.isi3 p{
+    padding: 15px;
+    margin: 15px;   
+    font-size: 17px;
+
+}
+.gambar3 img{
+    width: 550px;
+    height: 450px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 30px;    
+}
+.konten4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto
+}
+.konten4 p{
+    font-size: 2em;
+    text-align: center;
+    width: fit-content;
+    border-bottom: 10px solid green;
+    padding: 10px;
+ 
+}
+.konten4 p:hover{
+    border-top: 10px solid green;
+    border-left: 10px solid green;
+    border-right: 10px solid green;
+    transition: 0.8s;
+}
+.konten5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3em;
+    gap: 1em;
+}
+.konten5 img{
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.isi5{
+    width: 46%;
+    display: grid;
+}
+.detail5{
+    place-self: center;
+    
+}
+.detail5 p{
+    font-size: 17px;
+    padding: 15px;
+    margin: 15px; 
+}
+.detail5 a{
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    font-size: 15px;
+    padding: 7px 25px 7px 25px;
+    margin: 27px; 
+    text-decoration: none;
+}
+.detail5 a:hover{
+    background-color: #C1F2B0;
+    border: 1px solid green;
+    color: black;
+    transition: 0.5s;
+}
+.keutamaan{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2em;
+}
+.keutamaan1{
+    background-image: url(images/keutamaan1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30vw;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    border-radius: 10px;
+}   
+.kontenutama1{
+    place-self: center;
+}
+.kontenutama1 h1{
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 5px;
+    
+}
+.keutamaan2{
+    background-image: url(images/keutamaan2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30vw;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    border-radius: 10px;
+}   
+.kontenutama2{
+    place-self: center;
+}
+.kontenutama2 h1{
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 5px;
+    
+}
+.keutamaan3{
+    background-image: url(images/keutamaan3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30vw;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    border-radius: 10px;
+}   
+.kontenutama3{
+    place-self: center;
+} 
+.kontenutama3 h1{
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 5px;
+    
+}
+                 
+.article6{
+    margin-top: 3em;
+}
+.judul6{
+    display: flex;
+    justify-content: center;
+}
+.judul6 h1{
+    padding: 15px;
+    margin: 15px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.isi6{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2em;    
+}
+.testi1{
+    width: 30%;
+    height: 60vh;
+    background-color: #F5F5DC;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    border-radius: 20px;
+    
+}
+.testi1:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+.kontentesti1{
+    place-self: center;
+}
+.krab{
+    font-size: 23px;
+    font-weight: bold;
+}
+.testi1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+
+}
+.testi2{
+    width: 30%;
+    padding: 10px;
+    height: 60vh;
+    background-color: #F5F5DC;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    border-radius: 20px;
+
+}
+.testi2:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+.kontentesti2{
+    place-self: center;
+}
+.smitty{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.testi2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.testi3{
+    width: 30%;
+    padding: 10px;
+    height: 60vh;
+    background-color: #F5F5DC;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;    
+    display: grid;
+    border-radius: 20px;
+}
+.testi3:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+.kontentesti3{
+    place-self: center;
+}
+.strangler{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.testi3 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+#article7{
+    margin-top: 3.5em;
+    display: grid;
+
+}
+.form{
+    width: 100%;
+    background-image: url(images/kebun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 125vh;
+    place-self: center;
+}
+.judulform{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    
+}
+.judulform h1{
+    padding: 15px;
+    margin: 15px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    width: fit-content;
+    border: 1px solid white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+ 
+}
+.form-a{
+    background-color: rgb(173, 255, 47, 0.3);
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.form-a1{
+    padding: 5px;
+    margin: 5px;
+}
+
+.form-a1 input{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+.form-a2{
+    padding: 5px;
+    margin: 5px;
+}
+.form-a2 input{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.form-a3{
+    padding: 5px;
+    margin: 5px;
+}
+.form-a3 input{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+.form-a4{
+    padding: 5px;
+    margin: 5px;
+}
+.form-a4 input{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.submit{
+    color: white;
+    background-color: green;
+    width: 90px;
+    height: 40px;
+    border: 1px solid green;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.kontenowner{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3.5em;
+    text-align: center;
+}
+.kontenowner h1{
+    padding: 15px;
+    margin: 15px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.kontenowner img{
+    width: 320px;
+    height: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 35px;
+}
+.kontenowner img:hover{
+    box-shadow: 0px 10px 5px 0px gray;
+    transition: 0.5s;
+}
+.fauzi{
+    font-size: 23px;
+    font-weight: bold;
+}
+#article8{
+    margin-top: 3.5em;
+}
+.konten8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F7FFE5;
+    height: 65vh;
+}
+.profil{
+    width: 30%;
+}
+.navigasibawah{
+    width: 30%;
+}
+.navigasibawah a{
+    display: block;
+    text-decoration: none;
+
+}
+.kontak{
+    width: 30%;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navigasi{
+        display: grid;
+        height: fit-content;
+        text-align: center;
+    }
+    .logo{
+        place-self: center;
+    }
+    .navigasimenu{
+        display: flex;
+        flex-direction: column;
+    }
+    .background{
+        flex-direction: column-reverse;
+        background-image: url(images/buah18.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: grid;
+
+    }
+    .tagline{
+        justify-content: center;
+        place-self: center;
+        padding: 10px;
+
+    }
+    .kontentagline{
+        text-align: center;
+        font-size: 0.9em;
+    }
+    .background img{
+        width: 100%;
+        height: auto;
+    }
+    .kiri img{
+        width: 80vw;
+        height: 95vh;
+    }
+    
+    .kanan img {
+        width: 80vw;
+        height: 95vh;
+    }
+    .isi5{
+        width: 100%;
+    }
+    .detail5 p{
+        text-align: justify;
+    }
+    .kecapi{
+        height: 80vh;
+    }
+    .jambubol{
+        height: 80vh;
+    }
+    .kesemek{
+        height: 80vh;
+    }
+    .kiwi{
+        height: 80vh;
+    }
+    .manggis{
+        height: 80vh;
+    }
+    .sirsak{
+        height: 80vh;
+    }
+    .article3{
+        width: 100%;
+    }
+    .konten3 {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .judulisi3{
+        display: flex;
+        justify-content: center;
+    }
+    .isi3{
+        width: 100%;
+    }
+
+    .isi3 h1{
+        text-align: center;
+
+    }
+    .isi3 p{
+        text-align: justify;
+
+    }
+    .konten4 p{
+        font-size: 1.5em;
+    }
+    .detail5{
+        text-align: center;
+    }
+    .keutamaan1{
+        height: 50vh;
+        width: 40vw;
+    }   
+    .keutamaan2{
+        height: 50vh;
+        width: 40vw;
+        text-align: center;
+    } 
+    .keutamaan3{
+        height: 50vh;
+        width: 40vw;
+    } 
+    .judul6{
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+    }
+    .isi6{
+        display: block;
+        width: 100%;
+    }
+    .testi1{
+        width: 100%;
+        height: 70vh;
+    }
+    .testi2{
+        width: 100%;
+        height: 70vh;
+    }
+    .testi3{
+        width: 100%;
+        height: 70vh;
+    }
+    .form{
+        height: 160vh;
+    }
+    .konten8{
+    display: grid;
+    width: 100%;
+    text-align: justify;
+    height: 170vh;
+    }
+    .profil {
+    place-self: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    }
+    .navigasibawah{
+    place-self: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    }
+    .kontak{
+    place-self: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    }
+  
+}
+    
+
+
